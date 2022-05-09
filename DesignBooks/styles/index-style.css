@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: #fdf85c;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 0.9;
+    background-color: aqua;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+    border-width: 1pt solid;
+    border-radius: 8pt;
+    border-color: black;
+}
